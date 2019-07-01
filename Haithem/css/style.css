@@ -1,0 +1,81 @@
+
+body {
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, black, black 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%); 
+    height: 2000px;
+    font-family: 'Courier New', Courier, monospace;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+a{
+  font-family: 'Courier New', Courier, monospace;
+}
+p {
+    display:inline;
+}
+
+ /* navigation bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 100%;  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+ 
+  li a:hover {
+    background-color: rgb(131, 48, 48);
+  }
+
+/*boutton */
+  .container {
+      text-align: center;
+      margin-top: 90px;
+  }
+
+  .btn {
+      border: 1px solid #3498db;
+      background: #3498db;
+      padding: 10px 20px;
+      font-size: 20px;
+      font-family: "montserrat";
+      cursor: pointer;
+      margin: 10px;
+      transition: 0.8s;
+
+  }
+
+  .btn1 {
+    color: #fff;    
+  }
+  .btn1:hover {
+    color: #3498db;
+  }
+
+  .img1, .img2 {
+    width: 100%;
+  }
+
+  .logo {
+    float: right;
+    width: 2px;
+    height: 2px;
+    z-index: auto;
+  }

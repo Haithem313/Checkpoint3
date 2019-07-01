@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Courses</title>
+    <link rel="stylesheet" href="css\style.css">
+</head>
+
+<body>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><img class="logo" src="res\logo.png"></li>
+    </ul>
+    <center>
+        <form>
+
+            <h1>COURSES</h1><br>
+            <b>
+                <h3>Feedback</h3>
+            </b><br>
+            <button onclick="gras(event)">B</button>
+            <button onclick="ital(event)">I</button>
+            <button onclick="under(event)">Underline</button>
+            <select id="size" onchange="changesize(event)">
+                <option value="20px">20 px</option>
+                <option value="30px">30 px</option>
+                <option value="40px">40 px</option>
+            </select>
+            <select id="fonte" onchange="changefont(event)">
+                <option value="Arial">Arial</option>
+                <option value="Courier">Courier</option>
+                <option value="monospace">monospace</option>
+            </select><br>
+            <textarea class="form-control" id="myText" rows="3"></textarea>
+
+        </form>
+    </center>
+</body>
+<script src="js\main.js"></script>
+
+</html>
